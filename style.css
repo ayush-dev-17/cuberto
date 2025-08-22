@@ -1,0 +1,488 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Matter";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+*::selection{
+    color: white;
+    background-color: black;
+}
+
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    
+    /* background-color: pink; */
+    /* border: 2px solid red; */
+}
+
+#nav{
+    /* height: 15vh; */
+    padding: 30px 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav img{
+    /* height: 10vh; */
+    width: 15vh;
+}
+
+#right{
+    /* width: 45vh; */
+    display: flex;
+    align-items: center;
+
+    /* justify-content: space-between; */
+}
+
+#right a{
+    
+    text-decoration: none;
+    font-size:1.2vw;
+    font-weight: 400;
+    color: black;
+    margin-left: 90px;
+}
+#right i{
+    margin-left: 35px;
+}
+    
+/* ###################HomeMain******************* */
+
+#homeMain{
+    width: 100%;
+    /* background-color: red; */
+    padding: 14vw 12vw;
+}
+
+#homeMain h1{
+    font-weight: 500;
+    font-size: 1.54vw;
+    letter-spacing: -.1vw;
+}
+
+#homeMain .headings{
+    display: flex;
+    gap: 40px;
+}
+
+#homeMain .headings h1{
+    color: transparent;
+    -webkit-text-stroke:1px #000;
+    font-size: 7vw;
+    font-weight: 590;
+    letter-spacing: -3px;
+    line-height: 1;
+}
+
+
+#homeMain .headings h1:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+/* ################HomeLast*************** */
+
+#homeLast{
+    padding: 5vw 12vw;
+}
+
+#homeLast p{
+    width: 60%;
+    font-size: 1.6vw;
+    font-weight: 599;
+    letter-spacing: -.08vw;
+}
+
+#homeLast p::selection{
+    background-color:black;
+    color: white;
+}
+
+
+/* ###################feature Project***************** */
+#feature{
+    padding: 10vw 12vw;
+}
+
+.fheadings>h1{
+    font-size: 4vw;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.fheadings>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke:1px  black;
+}
+
+
+/* ###################featured Images(***********************) */
+
+#featureImg{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+    /* padding: 0vw 12vw; */
+    /* background-color: red; */
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+    /* background-color:green; */
+}
+
+#fleft .fleftElem{
+    width: 100%;
+    height: inherit;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fleftElem h1{
+    text-transform: capitalize;
+    margin: 1.5vw 0vw;
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.fleftElem h3{
+    font-weight: 400;
+    font-size: 1.6vw;
+    /* line-height: .5vw; */
+}
+
+.fleftElem h4{
+    opacity: .4;
+    /* font-weight: 400; */
+    /* line-height: .5vw; */
+}
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+    /* background-color:rgb(126, 0, 128); */
+}
+
+
+#fright .fimages{
+    /* background-color: peru; */
+    height: 90%;
+    width: 90%;
+}
+
+
+#fright .fimages img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* ################btnDuv**************** */
+
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vw;
+}
+
+.btndiv button{
+    padding: 1.3vw 2vw;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    border-radius: 100px;
+}
+
+
+/* #################dev&&&&&&&&&&&&&&&&& */
+#dev{
+    width: 100%;
+    padding: 5vw 12vw;
+}
+
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 500;
+    width: 57%;
+    line-height: 1;
+}
+
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    width: 54%;
+    letter-spacing:-.5px;
+}
+
+
+
+/* ####################Slides******************* */
+
+#slides{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 7vw;
+}
+
+.slide{
+    /* background-color: red; */
+    width: 31%;
+    
+}
+
+.slide .img{
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    /* background-color:blueviolet; */
+    border-radius: 10px;
+}
+
+.slide .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide .tag{
+    margin: 2vw 0vw;
+    background-color:#f7f7f7;
+    padding: 10px 22px;
+    width: fit-content;
+    border-radius: 100px;
+
+}
+
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+
+
+
+/* ##########################New Day ****************** */
+#newDay{
+    width: 100%;
+    /* background-color:goldenrod; */
+    padding: 10vw 50px 10vw 12vw;
+    /* min-height: 50vw; */
+}
+
+#head{
+    /* background-color: #fff; */
+    width: 30%;
+}
+
+#head h1{
+    font-size: 4.5vw;
+    font-weight: 400;
+    letter-spacing: -.2vw;
+}
+
+#fourSlide{
+    margin-top: 6vw;
+    width: 100%;
+    height: 30vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.first{
+    width: 21%;
+    height: 30vw;
+    /* background-color:red; */
+}
+
+.first .fimg img{
+    width: 100%;
+    height: 17vw;
+}
+
+.logo{
+    margin-top:2vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logo i{
+    font-size: 1.2vw;
+}
+
+.logo h4{
+    margin-left: 1vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+
+.first p{
+    font-size: 1vw;
+    text-align: left;
+    margin-top: 1vw;
+    font-weight: 400;
+    letter-spacing:-.3px;
+}
+
+
+
+
+/* ##################second images********************** */
+
+
+.second{
+    width: 21%;
+    height: 50vw;
+    /* background-color:red; */
+}
+
+.second .secimg img{
+    width: 100%;
+    height: 13vw;
+    margin-top: 4vw;
+}
+
+.seclogo{
+    margin-top:2vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.seclogo i{
+    font-size: 1.2vw;
+}
+
+.seclogo h4{
+    margin-left: 1vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+
+.second p{
+    font-size: 1vw;
+    text-align: left;
+    margin-top: 1vw;
+    font-weight: 400;
+    letter-spacing:-.3px;
+}
+
+
+/* ##############End************** */
+#end{
+    width: 100%;
+    padding: 7vw 12vw;
+    /* background-color: rgb(87, 118, 47); */
+    background-color:black;
+}
+
+
+
+#end #bold{
+    font-size: 4.5vw;
+    font-weight: 590;
+    color: white;
+}
+
+#end #lgt{
+    font-size: 4.5vw;
+    color: white;
+    font-weight: 1;
+    letter-spacing: -2.5px;
+    line-height: 1;
+    /* text-decoration: underline; */
+}
+
+#end #line{
+    height: 1px;
+    width: 35%;
+    margin-top: 6px;
+    background-color:#636363;
+}
+
+
+#end #info{
+    margin-top: 9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:red; */
+}
+
+#info #email h3{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 400;
+} 
+
+#info #email #lineTwo{
+    height: 1px;
+    margin-top: 6px;
+    width: 48%;
+    background-color:#636363;
+}
+
+#info #email p{
+    color:rgb(142, 142, 142);
+    width: 68%;
+    margin-top: 1.5vw;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+#info #email h6{
+    color:rgb(255, 255, 255);
+    width: 58%;
+    margin-top: 1.5vw;
+    font-size: .9vw;
+    font-weight: 500;
+}
+
+
+#link .links a{
+    text-decoration: none;
+    color:#636363;
+    font-size: 1.2vw;
+    font-weight: 400;
+    letter-spacing: -.3px;
+    margin-left: 6vw;
+    line-height: 6.5vw;
+}
